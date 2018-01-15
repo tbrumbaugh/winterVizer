@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+}
+tr {
+    align: center;
+}
+th {
+    display: table-cell;
+    font-family: Helvetica;
+    font-size: 13px;
+    height: 20px;
+    color: #288fcd;
+    margin: auto;
+    padding: 3%;
+
+}
+p {
+    color: red;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.dropdown {
+    width: 20px;
+    height: 15%;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}

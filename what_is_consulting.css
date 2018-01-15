@@ -1,0 +1,160 @@
+/* Container holding the image and the text */
+.container {
+    text-font: helvetica;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align:	center;
+    padding: 50px;
+    font-size: 24;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #FFFFFF;
+}
+
+.bottom-center-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align:	center;
+    padding: 50px;
+    font-size: 32;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #FFFFFF;
+}
+
+.bottom-right-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    padding: 45px;
+    font-size: 28;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #FFFFFF;
+}
+
+.bottom-left:hover .bottom-left-text {
+    opacity: 1;
+}
+
+.bottom-center:hover .bottom-center-text {
+    opacity: 1;
+}
+
+.bottom-right:hover .bottom-right-text {
+    opacity: 1;
+}
+
+div.relative {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+div.absolute {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    width: 100%;
+    height: 85%;
+    text-align: center;
+    text-font: helvetica;
+    color: white;
+}
+
+.absolute h1 {
+    font-size: 36pt;
+}
+
+.absolute p {
+    font-size: 20pt;
+}
+
+.absolute ul {
+    list-style-type: none;
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+    background: #cacaca;
+}
+
+.absolute li {
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+    background: #cacaca;
+    text-font: helvetica;
+    text-align: center;
+    font-size: 18;
+    width: 30%;
+    heigth: 70%;
+    bottom: 10%;
+    float: left;
+    width: 33%;
+}
+
+.absolute img {
+    width: 100%;
+    height: auto;
+}
+
+#text-content {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    background-image:  ;
+    bottom: 10%;
+    left: 10%;
+}
+
+/* Bottom center text */
+.bottom-center {
+    position: absolute;
+    background-image:  ;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    background-image:  ;
+    bottom: 10%;
+    right: 10%;
+}
